@@ -1,0 +1,292 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "ProximaNova-Regular", sans-serif;
+}
+.container {
+    padding: 0;
+}
+.navbar-brand {
+    color: #000;
+    margin:0;
+}
+.nav-link {
+    color: #000;
+}
+.title {
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 55px;
+}
+.para {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+@media(max-width:576px) {
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    .banner {
+        padding: 50px 0;
+    }
+    .banner h1 {
+        font-size: 24px;
+    }
+    .banner h3 {
+        font-size: 20px;
+    }
+    .text-block, .carrier-block, .contact-block {
+        text-align: center;
+        background-color: #141720;
+        padding: 30px;
+        border-bottom: 1px solid #dbdada;
+    }
+    .time-block {
+        text-align: center;
+        padding: 30px;
+    }
+    .services {
+        background-color: #efefef;
+        text-align: center;
+        padding: 30px;
+    }
+    .service-item {
+        padding-top: 15px;
+    }
+    .services h4 {
+        text-align: center;
+        margin: 20px 0 16px 0;
+        line-height: 26px;
+    }
+    .services p {
+        text-align: center;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+    .form-control {
+        background: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #dbdada;
+    }
+    .btn-danger {
+        position: absolute;
+        right: 25px;
+        bottom: 60px;
+        border-radius: 40px;
+    }
+    .map {
+        height: 300px;
+    }
+}
+@media (min-width:768px) {
+    .banner {
+        padding: 140px 0px;
+    }
+    .text-block, .carrier-block, .contact-block {
+        background-color: #141720;
+        padding: 30px;
+    }
+    .time-block {
+        padding: 30px;
+    }
+    .services {
+        background-color: #efefef;
+        padding: 30px;
+    }
+    .services h2 {
+        margin-bottom: 40px;
+    }
+    .services h4 {
+        margin: 10px 0 20px 0;
+    }
+    .form-control {
+        background: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #dbdada;
+    }
+    .btn-danger {
+        position: absolute;
+        right: 35px;
+        bottom: 60px;
+        border-radius: 40px;
+    }
+    .map {
+        height: 700px;
+    }
+}
+@media (min-width:992px) {
+    .text-block, .carrier-block, .contact-block {
+        padding: 100px 35px;
+    }
+    .time-block {
+        padding: 75px 45px 175px 45px;
+    }
+    .services {
+        background-color: #efefef;
+        padding: 100px 35px;
+    }
+    .services h2 {
+        padding-bottom: 30px;
+    }
+    .services h4 {
+        margin: 10px 0 20px 0;
+    }
+    .btn-danger {
+        right: 40px;
+        bottom: 310px;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+    .banner {
+        height: 100vh;
+        max-height: 800px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .head-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .head-title h1 {
+        letter-spacing: 1px;
+        font-size: 44px;
+        color: #141720;
+    }
+    .head-title h3 {
+        color: #5d5f65;
+        font-size: 25px;
+        line-height: 60px;
+        letter-spacing: 0.5px;
+    }
+    .text-block, .contact-block {
+        background-color: #141720;
+        padding: 140px 110px;
+    }
+    .time-block, .carrier-block {
+        padding: 140px 110px;
+    }
+    .services {
+        background-color: #efefef;
+        padding: 140px 110px 140px 110px;
+    }
+    .services h2 {
+        padding-bottom: 82px;
+    }
+    .services h4 {
+        margin-top: 20px;
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .services p {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        margin-bottom: 68px;
+    }
+    .btn-danger {
+        position: absolute;
+        right: 120px;
+        bottom: 270px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+    }
+}
+.form-control {
+    padding: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #dbdada;
+    resize: none;
+    transition: all 0.4s ease;
+}
+.form-control:focus {
+    background: transparent;
+    outline: none;
+    color: #fff;
+    box-shadow: none;
+}
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+    background: transparent;
+}
+.form-group>span {
+    color: #aaa;
+    font-size: 14px;
+    background: transparent;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    transition: all 0.4s ease;
+}
+.focus>span {
+    top: -12px;
+    left: 0;
+    font-size: 13px;
+    outline: none;
+}
+
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0px;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+
+.modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    margin: 100px 150px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    cursor: pointer;
+}
